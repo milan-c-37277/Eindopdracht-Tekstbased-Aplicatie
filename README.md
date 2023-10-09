@@ -12,13 +12,16 @@ Welkom speler. Je gaat 1 dag van mij beleven en zo ervoor te zorgen dat je zonde
 
 #### [Stuk 1]
 Goeiemorgen! Het is Maandag ochtend om 06:15. Je dag begint met meerdere wekkers die afgaan omdat het zo vroeg is en je je niet wilt verslapen voor school. Nadat je ongeveer 20 minuten nog in je bed tiktok hebt lopen scrollen om een beetje wakker te worden bedenk je je om misschien uit je bed te gaan. Je besluit om:
+
 A.	Uit je bed te gaan [2]
+
 B.	Nog 20 minuten verder te scrollen op tiktok [3]
 
 #### [Stuk 2]
 Je stapt uit bed en gaat volgens je klaarmaken voor school (tanden poetsen, aankleden ect). Nadat je klaar bent is het 7:25 en loop je naar de bus halte. En wacht je voor je bus. Je komt aan op station Haarlem centraal en ziet dat je trein om 08:58 vertrekt terwijl het nu 08:56 is. Ga je:
 
 A.	Rennen
+
 B.	Gewoon lopen
 
 #### [Stuk 3]
