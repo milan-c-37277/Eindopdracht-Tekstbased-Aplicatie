@@ -108,5 +108,4 @@ B.	Gaan slapen [21]
 Je kijkt nog even tiktok tot 23 en zet je wekkers voor de volgende ochtend die alweer om 06:15 gaan. 
 
 ### [stuk 21]
-Je loopt naar het wijn pad en haalt het glas tussen het wijn eruit, terwijl je collega
-
+Je legt je telefoon aan de lader en zet je wekkers en gaat slapen.
