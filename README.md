@@ -59,23 +59,19 @@ B.  Laat het gaan en regelt het met de ploeg die je hebt [11]
 Je belt de gene. De gene neemt niet op, je stuurt nog even en appje en niet veel later reageerd die gene met dat ze het was vergeten en dat ze er aan komt. Lees verder bij [stuk 11].
 
 ### [Stuk 11]
-Je begint met de actie bijvullen en regelt een paar kaarten die gemaakt moeten worden. Het verloopt goed en nadat de ploeg klaar is om 19:00 ruim je de laatste dingen op die zij zijn vergeten. Het is tijd om te eten. Je eet samen met een collega, je eet pizza. Nadat er weer een bende is gemaakt door iedereen die moest eten ga je weer naar beneden en ga je de taken doen die je kreeg van je baas. Waarmee ga je beginnen? *(als alle 3 een keer gekozen zijn ga verder naar [stuk 15])*
+Je begint met de actie bijvullen en regelt een paar kaarten die gemaakt moeten worden. Het verloopt goed en nadat de ploeg klaar is om 19:00 ruim je de laatste dingen op die zij zijn vergeten. Het is tijd om te eten. Je eet samen met een collega, je eet pizza. Nadat er weer een bende is gemaakt door iedereen die moest eten ga je weer naar beneden en ga je de taken doen die je kreeg van je baas. Waarmee ga je beginnen?
 
 A.	Opruimen (kleine taak) [12]
 
 B.	Actiekoppen anders indelen  (middel grote taak) [13]
-
-C.  Manden bijvullen (grote taak) [14]
-
 ### [Stuk 12]
-Je ruimt alle rotzooi op en andere dingen die zijn blijven staan. Je moet nu nog de grote taken doen. Ga terug naar [stuk 11] en kies een andere optie
+Je ruimt alle rotzooi op en andere dingen die zijn blijven staan. Ga naar [stuk 14] en lees daar verder.
 
 ### [Stuk 13]
-Je moet de meerdere planken van bepaalde koppen anders indelen en begint hieraan. Dit kosten je een uur wat veel bende heeft gemaakt. Je moet nu weer dingen opruimen. Ga terug naar [stuk 11] en kies een andere optie
-
+Je moet de meerdere planken van bepaalde koppen anders indelen en begint hieraan. Dit kosten je een uur wat veel bende heeft gemaakt. Je moet nu weer dingen opruimen. Lees verder bij [Stuk 15]
 
 ### [Stuk 14]
-Je loopt naar boven om bepaalde handel te pakken wat je gaat bijvullen op de manden, hiervoor loop je vaak heen en weer en ben je lang bezig dus. Ga terug naar [stuk 11] en kies een andere optie.
+Je moet de meerdere planken van bepaalde koppen anders indelen en begint hieraan. Dit kosten je een uur wat veel bende heeft gemaakt. Je moet nu weer dingen opruimen. Lees verder bij [Stuk 15]
 
 ### [stuk 15]
 Je bent nu klaar met je taken en gaat vegen en schoonmaken. Je bent bezig en hoort dat een college nog een fles wijn heeft laten vallen in het wijn pad. 
