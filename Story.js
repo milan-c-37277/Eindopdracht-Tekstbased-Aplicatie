@@ -2,7 +2,9 @@
 const rl = require('readline-sync');
 
 // introduceert de speler aan het spel & start het spel erna
+console.log('===================================================================================================================================================================================')
 console.log("Welkom speler. Je gaat 1 dag van mij beleven en zo ervoor te zorgen dat je zonder al te veel tegenslagen de dag doorkomt Het doel van het spel is om 1. Meer te weten te komen over mij, en 2. Je gaat mijn loopbaan begeleiden. Lees nu verder vanaf [stuk 1].")
+console.log('===================================================================================================================================================================================')
 startVerhaal()
 
 // Maakt de variablen aan
