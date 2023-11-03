@@ -2,6 +2,13 @@
 const rl = require('readline-sync');
 
 // introduceert de speler aan het spel & start het spel erna
+console.log(`
+        \\   ^__^
+         \\  (oo)\\_______
+            (__)\\       )\\/\\
+                ||----w |
+                ||     ||`)
+
 console.log('===================================================================================================================================================================================')
 console.log("Welkom speler. Je gaat 1 dag van mij beleven en zo ervoor te zorgen dat je zonder al te veel tegenslagen de dag doorkomt Het doel van het spel is om 1. Meer te weten te komen over mij, en 2. Je gaat mijn loopbaan begeleiden. Lees nu verder vanaf [stuk 1].")
 console.log('===================================================================================================================================================================================')
@@ -16,7 +23,7 @@ var Stuk11 = ''
 var Stuk15 = ''
 var Stuk17 = ''
 var Stuk19 = ''
-
+var doorgaan = false
 
 
 // Start verhaal
@@ -45,16 +52,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -65,16 +96,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -89,16 +144,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -109,16 +188,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -137,16 +240,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -157,16 +284,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -181,16 +332,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -201,16 +376,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -233,16 +432,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -253,16 +476,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -277,16 +524,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -297,16 +568,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -325,16 +620,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -345,16 +664,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -369,16 +712,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -389,16 +756,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }   
@@ -425,16 +816,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -445,16 +860,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -469,16 +908,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -489,16 +952,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -517,16 +1004,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -537,16 +1048,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -561,16 +1096,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -581,16 +1140,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -613,16 +1196,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -633,16 +1240,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -657,16 +1288,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -677,16 +1332,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -705,16 +1384,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -725,16 +1428,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -749,16 +1476,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -769,16 +1520,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }  
@@ -806,16 +1581,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -826,16 +1625,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -850,16 +1673,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -870,16 +1717,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -898,16 +1769,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -918,16 +1813,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -942,16 +1861,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -962,16 +1905,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -994,16 +1961,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -1014,16 +2005,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }   
@@ -1038,16 +2053,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -1058,16 +2097,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -1086,16 +2149,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -1106,16 +2193,40 @@ function startVerhaal(){
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }else if(Stuk17 == 'Je haalt niks'){
                                 console.log("Lees nu verder bij stuk 19 van het verhaal")
                                 Stuk19 = KeuzenVraag19()
                                 if(Stuk19 == 'Nog even tiktok kijken'){
                                     console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }else if(Stuk19 == 'Gaan slapen'){
                                     console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                    herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                                 }
                             }
                         }
@@ -1130,16 +2241,40 @@ function startVerhaal(){
                             Stuk19 = KeuzenVraag19()
                             if(Stuk19 == 'Nog even tiktok kijken'){
                                 console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }else if(Stuk19 == 'Gaan slapen'){
                                 console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }
                         }else if(Stuk17 == 'Je haalt niks'){
                             console.log("Lees nu verder bij stuk 19 van het verhaal")
                             Stuk19 = KeuzenVraag19()
                             if(Stuk19 == 'Nog even tiktok kijken'){
                                 console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }else if(Stuk19 == 'Gaan slapen'){
                                 console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }
                         }
                     }else if(Stuk15 = 'Ga je door met schoonmaken'){
@@ -1150,16 +2285,40 @@ function startVerhaal(){
                             Stuk19 = KeuzenVraag19()
                             if(Stuk19 == 'Nog even tiktok kijken'){
                                 console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }else if(Stuk19 == 'Gaan slapen'){
                                 console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }
                         }else if(Stuk17 == 'Je haalt niks'){
                             console.log("Lees nu verder bij stuk 19 van het verhaal")
                             Stuk19 = KeuzenVraag19()
                             if(Stuk19 == 'Nog even tiktok kijken'){
                                 console.log("Lees nu verder bij stuk 20 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }else if(Stuk19 == 'Gaan slapen'){
                                 console.log("Lees nu verder bij stuk 21 van het verhaal")
+                                herhaal = repeat()
+                                    if(herhaal == 'Ja'){
+                                        startVerhaal()
+                                    }else if('Nee'){
+                                        console.log("Einde verhaal")
+                                    }
                             }
                         }
                     }
@@ -1223,4 +2382,23 @@ function KeuzenVraag19() {
     KeuzenVraag19 = ['Nog even tiktok kijken', 'Gaan slapen'],
     index = rl.keyInSelect(KeuzenVraag19, 'Welke optie kies je?');
     return KeuzenVraag19[index];
+}
+
+// Functie doorgan vraag
+function repeat() {
+    repeat = ['Ja', 'Nee'],
+    index = rl.keyInSelect(repeat, 'Wil je opnieuw spelen?');
+    return repeat[index];
+}
+
+
+var herhaal = false
+
+while(doorgaan == true){
+    herhaal = repeat()
+    if(herhaal == 'Ja'){
+        startVerhaal()
+    }else if('Nee'){
+        console.log("Einde verhaal")
+    }
 }
